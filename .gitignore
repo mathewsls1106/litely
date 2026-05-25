@@ -13,3 +13,4 @@ wheels/
 
 .claude
 .python-version
+**.yaml

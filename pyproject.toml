@@ -9,4 +9,10 @@ dependencies = [
     "boto3>=1.35.0",
     "django>=5.2.0",
     "python-dotenv>=1.0.0",
+    "PyYAML>=6.0",
 ]
+
+[project.optional-dependencies]
+
+[project.scripts]
+conecte-tunnels = "conecte_tunnels.__main__:main"

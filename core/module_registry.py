@@ -11,6 +11,7 @@ from typing import Dict
 MODULES: Dict[str, str] = {
     "S3 Browser": "s3_tui.main",
     # Add future modules here, e.g. "CloudWatch": "cloudwatch_tui.main"
+    "SSM Tunnel Manager": "conecte_tunnels.__main__",
 }
 
 

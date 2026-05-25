@@ -1,0 +1,44 @@
+Screen {
+    background: $surface;
+}
+
+#identity {
+    background: $primary;
+    color: $text;
+    padding: 1;
+    margin: 1;
+}
+
+#tunnel-table {
+    height: 1fr;
+    margin: 1;
+}
+
+#status {
+    height: 3;
+    padding: 1;
+    color: $secondary;
+}
+
+Horizontal {
+    height: auto;
+    align: center middle;
+    margin: 1;
+}
+
+Button {
+    margin-right: 1;
+}
+
+#dialog {
+    width: 40;
+    height: auto;
+    border: thick $primary;
+    background: $surface;
+    padding: 1;
+    align: center middle;
+}
+
+#dialog Input, #dialog Select {
+    margin-bottom: 1;
+}
